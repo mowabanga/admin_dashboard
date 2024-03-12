@@ -44,6 +44,7 @@ const App = () => {
       setCurrentColor(currentThemeColor);
       setCurrentMode(currentThemeMode);
     }
+    document.title = "Admin dashboard";
   });
 
   return (
